@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="mStyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="margin: auto; width: 50%; padding: 10px; text-align: center;">
+    <h1 id="header1" style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: #052;">Simple Paint</h1>
+    <div>
+        <div>
+            <button id="ccBlack" onclick="ccBlack()" style="vertical-align: top; width: 47px; height: 20px; background-color: Black;"></button>
+            <button id="ccRed" onclick="ccRed()" style="vertical-align: top; width: 47px; height: 20px; background-color: Red;"></button>
+            <button id="ccYellow" onclick="ccYellow()" style="vertical-align: top; width: 47px; height: 20px; background-color: Yellow;"></button>
+            <button id="ccGreen" onclick="ccGreen()" style="vertical-align: top; width: 47px; height: 20px; background-color: Green;"></button>
+            <button id="ccBlue" onclick="ccBlue()" style="vertical-align: top; width: 47px; height: 20px; background-color: Blue;"></button>
+            <button id="ccCyan" onclick="ccCyan()" style="vertical-align: top; width: 47px; height: 20px; background-color: cyan;"></button>
+            <button id="ccBrown" onclick="ccBrown()" style="vertical-align: top; width: 47px; height: 20px; background-color: Brown;"></button>
+            <button id="ccBisque" onclick="ccBisque()" style="vertical-align: top; width: 47px; height: 20px; background-color: bisque;"></button>
+        </div>
+        
+        <div>
+            <p>font size</p>
+            <input type="range" min="1" max="20" value="8" id="myRange">
+        </div>
+
+        <div>
+            <canvas id="myCanvas" width="400" height="500" style="border:1px solid #000000; margin-top: 10px;"></canvas>
+        </div>
+        
+        <div>
+            <button style="width: 43%; margin-top: 10px;" onclick="clearCan()">Clear</button>
+        </div>
+    </div>
+
+    
+
+    <script src="main.js"></script>
+</body>
+    
+
+</html>
